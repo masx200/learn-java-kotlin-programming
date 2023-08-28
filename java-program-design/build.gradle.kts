@@ -4,6 +4,13 @@ plugins {
     java
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
@@ -22,7 +29,9 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(11)
+
+
 }
 
 application {
@@ -31,21 +40,3 @@ application {
 tasks.shadowJar{
     manifest.attributes["Main-Class"] = "MainKt"
 }
-//tasks.jar {
-//    //println(enabled)
-////    copy{  eachFile { duplicatesStrategy = DuplicatesStrategy.INCLUDE }}
-//    // enabled = true
-//    manifest {
-//        attributes(mapOf("Main-Class" to "MainKt"))
-//    }
-//    from(configurations.runtimeClasspath.get().map {
-//        if (it.isDirectory) it else zipTree(it)
-//    })
-////    val sourcesMain = sourceSets.main.get()
-////    sourcesMain.allSource.forEach { println("add from sources: ${it.name}") }
-////    from(sourcesMain.output)
-//}
-//tasks.withType<Jar>() {
-//
-//    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-//}
