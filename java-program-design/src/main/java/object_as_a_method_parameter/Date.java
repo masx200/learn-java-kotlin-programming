@@ -1,7 +1,9 @@
 package object_as_a_method_parameter;
 public
 class Date {               //定义了日期类,有年,月,日的特性
-    int year, month, day;
+    final int year;
+    final int month;
+    final int day;
 
     //构造方法
     Date(int y, int m, int d) {

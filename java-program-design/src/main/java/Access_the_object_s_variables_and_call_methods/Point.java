@@ -1,7 +1,7 @@
 package Access_the_object_s_variables_and_call_methods;
 
 class Point {                //定义类Point
-    int x = 0, y = 0;                  //定义成员变量
+    int x, y;                  //定义成员变量
 
     Point() {                  //定义无参数构造方法
         x = 0;

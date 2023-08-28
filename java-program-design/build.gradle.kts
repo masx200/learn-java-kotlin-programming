@@ -29,7 +29,7 @@ application {
     mainClass.set("MainKt")
 }
 tasks.shadowJar{
-    manifest.attributes.put("Main-Class", "MainKt")
+    manifest.attributes["Main-Class"] = "MainKt"
 }
 //tasks.jar {
 //    //println(enabled)

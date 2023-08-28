@@ -1,7 +1,9 @@
 package Objects_are_used_as_class_members;
 
 public class Date {             //定义了日期Date 类,有年、月、日的特性
-    int year, month, day;   //成员变量
+    final int year;
+    final int month;
+    final int day;   //成员变量
 
     Date(int y, int m, int d) {       //构造方法
         year = y;
