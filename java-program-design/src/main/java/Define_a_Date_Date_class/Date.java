@@ -1,9 +1,9 @@
-package demo.date;
+package Define_a_Date_Date_class;
 
 public class Date {
-    private int day;
-    private int month;
-    private int year;
+    private int day=0;
+    private int month=0;
+    private int year=0;
 
     //成员方法
     public void setDate(int d, int m, int y) {

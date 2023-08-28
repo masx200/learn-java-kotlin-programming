@@ -1,6 +1,4 @@
-package demo.TestMemberVariable;
-
-import demo.circle.Circle;
+package Access_instances_to_class_variables_and_instance_variables;
 
 public class TestMemberVariable {
     public static void main(String[] args) {

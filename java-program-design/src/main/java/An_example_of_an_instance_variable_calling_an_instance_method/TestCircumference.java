@@ -1,6 +1,4 @@
-package demo.TestCircumference;
-
-import demo.TestCircumference.Circle.Circle;
+package An_example_of_an_instance_variable_calling_an_instance_method;
 
 public class TestCircumference {
     public static void main(String[] args) {
