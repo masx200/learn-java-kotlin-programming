@@ -13,6 +13,6 @@ public class Date {
     }
 
     public void showDate() {
-        System.out.println("day-" + day + ":" + "month-" + month + ":" + "year-" + year);
+        System.out.println(day + ":" + month + ":" + year);
     }
 }
