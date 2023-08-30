@@ -1,4 +1,4 @@
-package SalarySortTest;
+package chapter.one.two.two.five;
 
 import com.liming.mypackage.Employee;
 

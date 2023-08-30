@@ -1,4 +1,4 @@
-package chapter_one.two.three;
+package chapter.one.two.three.one;
 
 public class Account {
     public String clientName;

@@ -1,4 +1,4 @@
-package An_example_of_an_instance_variable_calling_an_instance_method;
+package chapter.one.two.two.three;
 
 public class TestCircumference {
     public static void main(String[] args) {

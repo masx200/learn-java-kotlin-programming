@@ -1,4 +1,4 @@
-package Objects_are_used_as_class_members;
+package chapter.one.two.three.three;
 
 //显示教师生日的应用程序
 public class Teacher {

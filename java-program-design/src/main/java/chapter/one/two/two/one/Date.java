@@ -1,4 +1,4 @@
-package chapter_one.two.two.one;
+package chapter.one.two.two.one;
 
 public class Date {
     private int day=0;

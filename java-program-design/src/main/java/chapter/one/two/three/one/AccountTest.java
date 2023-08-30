@@ -1,4 +1,4 @@
-package chapter_one.two.three;
+package chapter.one.two.three.one;
 
 public class AccountTest {
     public static void main(String[] args) {

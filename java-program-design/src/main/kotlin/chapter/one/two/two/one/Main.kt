@@ -1,4 +1,4 @@
-package chapter_one.two.two.one
+package chapter.one.two.two.one
 
 fun main(args: Array<String>) {
     val date = Date()

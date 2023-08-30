@@ -1,4 +1,4 @@
-package Call_the_class_method_example;
+package chapter.one.two.two.four;
 
 public class Circumference {
     static final double PI = 3.14159265;

@@ -1,4 +1,4 @@
-package object_as_a_method_parameter;
+package chapter.one.two.three.four;
 
 //显示教师生日的应用程序
 public class Teacher1{      //Teacher1 教师生日类定义
