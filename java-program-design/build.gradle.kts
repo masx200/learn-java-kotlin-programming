@@ -35,10 +35,10 @@ kotlin {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
     }
 }
-
+val MainClass = "chapter_one.two.two.one.MainKt"
 application {
-    mainClass.set("MainKt")
+    mainClass.set(MainClass)
 }
 tasks.shadowJar{
-    manifest.attributes["Main-Class"] = "MainKt"
+    manifest.attributes["Main-Class"] = MainClass
 }

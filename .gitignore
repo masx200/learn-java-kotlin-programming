@@ -12,3 +12,4 @@ buildNumber.properties
 .idea
 .run
 .gradle
+*.java~

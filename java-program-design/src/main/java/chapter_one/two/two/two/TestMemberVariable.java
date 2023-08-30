@@ -1,4 +1,5 @@
-package Access_instances_to_class_variables_and_instance_variables;
+package chapter_one.two.two.two;
+
 
 public class TestMemberVariable {
     public static void main(String[] args) {
