@@ -1,4 +1,4 @@
-package chapter_one.two.two.two;
+package chapter.one.two.two.two;
 
 public class Circle {
     public static final double PI = 3.14159265;
