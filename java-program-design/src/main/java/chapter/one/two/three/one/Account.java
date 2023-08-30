@@ -1,7 +1,7 @@
 package chapter.one.two.three.one;
 
 public class Account {
-    public String clientName = null;
-    public int accountNum = 0;
-    public double balance = 0;
+    public final String clientName = null;
+    public final int accountNum = 0;
+    public final double balance = 0;
 }
