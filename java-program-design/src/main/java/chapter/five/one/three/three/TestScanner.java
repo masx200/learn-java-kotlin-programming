@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class TestScanner {
-    String keyword;
+    final String keyword = null;
 
     public void search(File file) throws FileNotFoundException {
 

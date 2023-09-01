@@ -1,11 +1,14 @@
 package chapter.three.seven.one;
 
+import static chapter.five.four.one.one.Println.println;
+
 //例3.12 条件表达式
 public class OperatorsAndExpressions {
     public static void main(String[] args) {
         OperatorsAndExpressions OperAndExp = new OperatorsAndExpressions();
         //条件表达式
-        OperAndExp.conditionalExpression(65);
+        String result = OperAndExp.conditionalExpression(65);
+        println(result);
     }
 
     String conditionalExpression(int score) {

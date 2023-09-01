@@ -3,9 +3,9 @@ package chapter.five.four.one.one;
 class Light {
     //static 变量
     static int counter; //创建灯管对象编号No.
-    int wattage;      //瓦特数
-    boolean indicator; //开关
-    String location;  //位置
+    final int wattage;      //瓦特数
+    final boolean indicator; //开关
+    final String location;  //位置
 
     Light() {  //默认构造方法
         wattage = 50;

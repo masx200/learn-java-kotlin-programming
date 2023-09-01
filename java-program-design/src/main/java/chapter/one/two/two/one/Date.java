@@ -5,6 +5,15 @@ public class Date {
     private int month = 0;
     private int year = 0;
 
+    @Override
+    public String toString() {
+        return "Date{" +
+                "day=" + day +
+                ", month=" + month +
+                ", year=" + year +
+                '}';
+    }
+
     //成员方法
     public void setDate(int d, int m, int y) {
         day = d;

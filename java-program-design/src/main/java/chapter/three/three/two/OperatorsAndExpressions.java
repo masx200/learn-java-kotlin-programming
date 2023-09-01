@@ -1,5 +1,7 @@
 package chapter.three.three.two;
 
+import static chapter.five.four.one.one.Println.println;
+
 public class OperatorsAndExpressions {
     public static void main(String[] args) {
         OperatorsAndExpressions OperAndExp = new OperatorsAndExpressions();
@@ -16,5 +18,7 @@ public class OperatorsAndExpressions {
         MyValue v2 = new MyValue();
         v1.i = v2.i = 2003;
         System.out.println(v1.equals(v2));
+        println(v1);
+        println(v2);
     }
 }
