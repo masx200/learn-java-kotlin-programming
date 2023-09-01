@@ -5,7 +5,7 @@ package chapter.four.two.one.three;
 //
 //        import java.math.*;
 public class IfElseIfStatement {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int score90Number = 0, score80Number = 0, score70Number = 0;
         int score60Number = 0, scoreUnder60Number = 0;
         int score;
