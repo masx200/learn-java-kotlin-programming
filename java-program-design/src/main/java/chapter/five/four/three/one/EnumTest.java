@@ -13,6 +13,7 @@ public class EnumTest {
         Size size = Enum.valueOf(Size.class, input);
         System.out.println("size = " + size);
         //调用成员方法
+
         System.out.println("abbreviation = " + size.getAbbreviation());
         if (size == Size.EXTRA_LARGE ^ size == Size.EXTRA_EXTRA_LARGE)
             System.out.println("很好!你注意到了下画线\"_\"。");
