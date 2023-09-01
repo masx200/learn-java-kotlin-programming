@@ -39,6 +39,6 @@ val AppMainClass = "chapter.one.two.two.one.MainKt"
 application {
     mainClass.set(AppMainClass)
 }
-tasks.shadowJar{
+tasks.shadowJar {
     manifest.attributes["Main-Class"] = AppMainClass
 }

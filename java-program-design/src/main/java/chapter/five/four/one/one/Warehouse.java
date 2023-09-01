@@ -3,7 +3,6 @@ package chapter.five.four.one.one;
 import static chapter.five.four.one.one.Println.println;
 
 
-
 public class Warehouse {
     public static void main(String[] args) {
         Light.writeCount();                  //用类名调用
