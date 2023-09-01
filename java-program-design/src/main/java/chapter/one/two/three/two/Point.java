@@ -2,6 +2,15 @@ package chapter.one.two.three.two;
 
 public class Point {                //定义类Point
     public int x;
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+
     public int y;                  //定义成员变量
 
     Point() {                  //定义无参数构造方法
