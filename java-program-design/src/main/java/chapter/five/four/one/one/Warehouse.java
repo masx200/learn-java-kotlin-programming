@@ -1,5 +1,9 @@
 package chapter.five.four.one.one;
 
+import static chapter.five.four.one.one.Println.println;
+
+
+
 public class Warehouse {
     public static void main(String[] args) {
         Light.writeCount();                  //用类名调用
@@ -9,9 +13,9 @@ public class Warehouse {
         Light.writeCount();             //利用引用调用
         Light cLight = new Light();      //再创建一个对象
         System.out.println("Value of counter:" + Light.counter); //通过引用访问
-        Println.println(aLight);
-        Println.println(bLight);
-        Println.println(cLight);
+        println(aLight);
+        println(bLight);
+        println(cLight);
     }
 
 }
