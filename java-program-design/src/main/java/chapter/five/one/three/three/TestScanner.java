@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class TestScanner {
-    final String keyword = null;
+    final String keyword = "";
 
     public void search(File file) throws FileNotFoundException {
 
@@ -16,7 +16,9 @@ public class TestScanner {
         while (in.hasNextLine()) {
             lineNumber++;
             var line = in.nextLine();
-            if (line.contains(keyword)) System.out.printf("%s:%d:%s%n", file.getPath(), lineNumber, line);
+            if (line.contains(keyword)) {
+                System.out.printf("%s:%d:%s%n", file.getPath(), lineNumber, line);
+            }
 
         }
         in.close();

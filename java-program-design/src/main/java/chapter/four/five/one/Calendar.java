@@ -37,8 +37,11 @@ public class Calendar {
         printHead(m);
         int days = daysOfMonth(m);
         for (int i = 1; i <= days; i++) {
-            if (i < 10) System.out.print(" " + i);
-            else System.out.print("  " + i);
+            if (i < 10) {
+                System.out.print(" " + i);
+            } else {
+                System.out.print("  " + i);
+            }
             weekday = (weekday + 1) % 7;
             if (weekday == 0) {
                 System.out.println();
@@ -51,15 +54,20 @@ public class Calendar {
     public static void printHead(int m) {
         System.out.println(" " + m + "月  日 一 二 三 四 五 六");
         System.out.print("  ");
-        for (int i = 0; i < weekday; i++) System.out.print(" ");
+        for (int i = 0; i < weekday; i++) {
+            System.out.print(" ");
+        }
     }
 
     /***计算每年第一天是星期几 */
     public static long firstDayOfYear(int y) {
         long n;
         n = y * 365L;
-        for (int i = 1; i < y; i++)
-            if (isLeapYear(i)) n += 1;
+        for (int i = 1; i < y; i++) {
+            if (isLeapYear(i)) {
+                n += 1;
+            }
+        }
         return n % 7;
     }
 
@@ -80,8 +88,11 @@ public class Calendar {
             case 11:
                 return 30;
             case 2:
-                if (isLeapYear(year)) return 29;
-                else return 28;
+                if (isLeapYear(year)) {
+                    return 29;
+                } else {
+                    return 28;
+                }
         }
         return 0;
     }

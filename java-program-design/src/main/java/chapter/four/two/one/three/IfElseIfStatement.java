@@ -13,11 +13,17 @@ public class IfElseIfStatement {
         for (int i = 0; i < 10; i++) {
             score = (int) (Math.random() * 100);
             System.out.print(score + ",");
-            if (score >= 90) score90Number++;
-            else if (score >= 80) score80Number++;
-            else if (score >= 70) score70Number++;
-            else if (score >= 60) score60Number++;
-            else scoreUnder60Number++;
+            if (score >= 90) {
+                score90Number++;
+            } else if (score >= 80) {
+                score80Number++;
+            } else if (score >= 70) {
+                score70Number++;
+            } else if (score >= 60) {
+                score60Number++;
+            } else {
+                scoreUnder60Number++;
+            }
         }
         System.out.println();
         System.out.println("90 分以上的人数:" + score90Number);

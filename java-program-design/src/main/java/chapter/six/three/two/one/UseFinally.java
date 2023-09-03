@@ -1,7 +1,7 @@
 package chapter.six.three.two.one;
 
 public class UseFinally {
-    static Switch sw = new Switch();
+    static final Switch sw = new Switch();
 
     public static void main(String[] args) {
         try {

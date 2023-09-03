@@ -2,7 +2,7 @@ package chapter.six.three.two.two;
 
 
 public class LostMessage {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try {
             LostMessage lm = new LostMessage();
             try {

@@ -8,13 +8,18 @@ public class BreakStatement {
         for (i = 1; i <= 10; i++) {
             score = (int) (Math.random() * 100);
             System.out.print(score + ",");
-            if (score < 60) break;
+            if (score < 60) {
+                break;
+            }
             sum += score;
             i++;
         }
         System.out.println();
-        if ((i == 10) && ((sum / 10) >= 80)) System.out.println("团队测试通过");
-        else System.out.println("团队测试不通过");
+        if ((i == 10) && ((sum / 10) >= 80)) {
+            System.out.println("团队测试通过");
+        } else {
+            System.out.println("团队测试不通过");
+        }
     }
 }
 

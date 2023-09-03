@@ -14,7 +14,8 @@ public class ArrayCopy {
         System.arraycopy(smallPrimes, 2, luckyNumbers, 3, 4);
         println(Arrays.toString(smallPrimes));
         println(Arrays.toString(luckyNumbers));
-        for (int i = 0; i < luckyNumbers.length; i++)
+        for (int i = 0; i < luckyNumbers.length; i++) {
             System.out.println(i + " entry after copy is " + luckyNumbers[i]);
+        }
     }
 }

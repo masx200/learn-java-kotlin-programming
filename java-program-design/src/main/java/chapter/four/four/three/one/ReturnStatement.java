@@ -12,11 +12,17 @@ public class ReturnStatement {
 
     String evaluate(int score) {
         String s;
-        if (score >= 90) s = "成绩优异";
-        else if (score >= 80) s = "成绩优良";
-        else if (score >= 70) s = "成绩中等";
-        else if (score >= 60) s = "成绩及格";
-        else s = "成绩不及格";
+        if (score >= 90) {
+            s = "成绩优异";
+        } else if (score >= 80) {
+            s = "成绩优良";
+        } else if (score >= 70) {
+            s = "成绩中等";
+        } else if (score >= 60) {
+            s = "成绩及格";
+        } else {
+            s = "成绩不及格";
+        }
         return s;
     }
 }

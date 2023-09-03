@@ -14,8 +14,11 @@ public class WhileLoopStatement {
             i++;
         }
         System.out.println();
-        if ((i == 10) && ((sum / 10) >= 80)) System.out.println("团队测试通过");
-        else System.out.println("团队测试不通过");
+        if ((i == 10) && ((sum / 10) >= 80)) {
+            System.out.println("团队测试通过");
+        } else {
+            System.out.println("团队测试不通过");
+        }
     }
 }
 

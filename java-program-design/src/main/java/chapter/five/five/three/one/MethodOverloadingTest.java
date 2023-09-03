@@ -7,7 +7,9 @@ public class MethodOverloadingTest {
         staff[1] = new Employee(60000);          //一个参数
         staff[2] = new Employee();               //无参数
         for (Employee e : staff)                  //将构造方法数组打印出来
+        {
             System.out.println("name = " + e.getName() + ",id = " + e.getID() + ",salary = " + e.getSalary());
+        }
     }
 }
 

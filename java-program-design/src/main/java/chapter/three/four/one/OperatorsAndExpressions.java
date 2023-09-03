@@ -8,8 +8,11 @@ public class OperatorsAndExpressions {
     }
 
     void shortCircuit1(int val) {
-        if (test1(val) && test2(val) && test3(val)) System.out.println("短路逻辑表达式结果为真");
-        else System.out.println("短路逻辑表达式结果为假");
+        if (test1(val) && test2(val) && test3(val)) {
+            System.out.println("短路逻辑表达式结果为真");
+        } else {
+            System.out.println("短路逻辑表达式结果为假");
+        }
     }
 
     boolean test1(int val) {
