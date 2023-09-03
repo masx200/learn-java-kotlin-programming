@@ -4,4 +4,5 @@ public class Println {
     public static void println(Object bLight) {
         System.out.println(bLight);
     }
+
 }
