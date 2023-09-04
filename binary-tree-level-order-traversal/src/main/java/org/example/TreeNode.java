@@ -79,7 +79,9 @@ public class TreeNode {
 
     // Encodes a tree to a single string.
     public static String serialize(TreeNode root) {
-        if (root == null) return null;
+        if (root == null) {
+            return null;
+        }
         String ans = "[";
         LinkedList<String> array = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();

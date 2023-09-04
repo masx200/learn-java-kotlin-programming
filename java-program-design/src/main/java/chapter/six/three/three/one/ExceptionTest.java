@@ -25,7 +25,8 @@ public class ExceptionTest {
         for (i = 0; i <= ntry; i++) {
             try {
                 s.pop();
-            } catch (EmptyStackException e) {
+            } catch (EmptyStackException ignored) {
+
             }
         }
 

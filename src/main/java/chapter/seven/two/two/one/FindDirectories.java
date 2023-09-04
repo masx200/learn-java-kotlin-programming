@@ -1,4 +1,4 @@
-package chapter.seven.two.one.one;
+package chapter.seven.two.two.one;
 
 import java.io.File;
 import java.io.IOException;

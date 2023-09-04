@@ -11,7 +11,7 @@ public class Main {
         Scanner cin = new Scanner(System.in);
 //        ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
         while (cin.hasNextLine()) {
-            ArrayList<Integer> row = new ArrayList<Integer>();
+            ArrayList<Integer> row = new ArrayList<>();
             String line = cin.nextLine();
             if (!line.isEmpty()) {
                 String[] arrLine = line.split(" ");

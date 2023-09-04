@@ -9,7 +9,7 @@ import java.util.GregorianCalendar;
 class Employee {
     public static final int NAME_SIZE = 40;  //姓名按照40 个字符设计
     public static final int RECORD_SIZE = 2 * NAME_SIZE + 8 + 4 + 4 + 4;
-    private String name;  //2  40 = 80 个字节
+    private String name = "";  //2  40 = 80 个字节
     private double salary;  //64 个bit,占8 个字节
     private Date hireDay;  //(3  32 bit),3  4 = 12 个字节
 
