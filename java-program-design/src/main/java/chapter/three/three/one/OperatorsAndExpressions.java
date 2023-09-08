@@ -10,8 +10,8 @@ public class OperatorsAndExpressions {
     void equalsMethod1() {
         int i = 10, j = 15;
         System.out.println(i == j);         //基本类型的数据之间的比较
-        String s1 = new String("how are you");
-        String s2 = new String("how are you");
+        String s1 = "how are you";
+        String s2 = "how are you";
         System.out.println(s1 == s2);       //复合数据类型的数据之间的比较
     }
 }
