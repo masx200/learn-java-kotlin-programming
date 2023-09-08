@@ -10,6 +10,7 @@ class Test {
         xs.add((byte) (1));
         Byte x = (Byte) xs.iterator().next();
         //String 类型的list
+
         LinkedList ys = new LinkedList();
         ys.add("zero");
         ys.add("one");
