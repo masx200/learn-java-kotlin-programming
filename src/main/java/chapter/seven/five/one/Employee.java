@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 class Employee implements Serializable {  //对象串行化
-    private String name="";
+    private String name = "";
     private double salary;
     private Date hireDay;
 

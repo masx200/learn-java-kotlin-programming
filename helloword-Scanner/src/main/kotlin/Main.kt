@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.Scanner
 
 fun main(args: Array<String>) {
     val `in` = Scanner(System.`in`)
