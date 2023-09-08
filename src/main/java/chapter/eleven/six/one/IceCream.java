@@ -2,7 +2,7 @@ package chapter.eleven.six.one;
 
 public class IceCream {
     //创建对象数组,有10 个String 对象,是冰激凌的品种
-    static String[] breed = {" 巧克力", "香草", "草莓", "朗姆酒", "咖啡",
+    static final String[] breed = {" 巧克力", "香草", "草莓", "朗姆酒", "咖啡",
             "果仁", "香芋", "绿茶", "榛子", "葡萄干"};
 
     //产生随机排列的数组,数组长度由形参n 确定

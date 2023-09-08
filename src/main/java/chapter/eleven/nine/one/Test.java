@@ -23,12 +23,6 @@ class Test {
         System.out.println(xs);
         System.out.println(ys);
         System.out.println(zss);
-//        try {
-//            Byte w = (Byte) ys.iterator().next();  //run-time exception
-//        } catch (Exception e) {
-//            System.out.println(e);
-//            e.printStackTrace();
-//        }
 
     }
 }

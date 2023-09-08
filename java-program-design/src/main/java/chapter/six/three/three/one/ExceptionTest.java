@@ -8,7 +8,7 @@ public class ExceptionTest {
     public static void main(String[] args) {
         int i = 0;
         int ntry = 1000000;
-        Stack s = new Stack();
+        var s = new Stack<>();
         long s1;
         long s2;
         System.out.println("Testing for empty stack");

@@ -1,7 +1,7 @@
 package chapter.eight.three.two.two;
 
 public class ThreadTerminate {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int i = 0;
         Hello h = new Hello();
         Thread t = new Thread(h);

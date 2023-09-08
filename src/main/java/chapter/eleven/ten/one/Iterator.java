@@ -1,7 +1,7 @@
 package chapter.eleven.ten.one;
 
 interface Iterator<A> {
-  public A next();
+  A next();
 
-  public boolean hasNext();
+  boolean hasNext();
 }

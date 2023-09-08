@@ -1,7 +1,7 @@
 package chapter.eleven.ten.one;
 
 class Node<A> {
-    A elt;
+    final A elt;
     Node<A> next = null;
 
     Node(A elt) {

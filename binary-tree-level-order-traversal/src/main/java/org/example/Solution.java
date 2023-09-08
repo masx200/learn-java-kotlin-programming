@@ -22,10 +22,10 @@ public class Solution {
                 if (node != null) {
                     level.add(node.val);
                 }
-                if (node.left != null) {
+                if (node != null && node.left != null) {
                     queue.offer(node.left);
                 }
-                if (node.right != null) {
+                if (node != null && node.right != null) {
                     queue.offer(node.right);
                 }
             }
