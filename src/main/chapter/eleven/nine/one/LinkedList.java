@@ -19,7 +19,7 @@ class LinkedList implements Collection {
 
     public Iterator iterator() {
         return new Iterator() {
-            protected Node ptr = heaD;
+            private Node ptr = heaD;
 
             public boolean hasNext() {
                 return ptr != null;
