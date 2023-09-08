@@ -37,4 +37,4 @@ jobs:
         with:
           arguments: test build
           build-root-directory: java-program-design
-      - run: gradle test     
+      - run: gradle test
