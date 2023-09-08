@@ -10,6 +10,13 @@ class SetExampleTest {
     void mainTest() {
 
         main(new String[]{"hello", "world"});
+
+    }
+
+    @Test
+    void mainTest2() {
+
+
         main(new String[]{"she", "said", "she", "is", "signorina"});
     }
 }
