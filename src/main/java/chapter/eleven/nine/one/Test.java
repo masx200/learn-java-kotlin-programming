@@ -20,12 +20,15 @@ class Test {
         zss.add(ys);
         String z = (String) ((LinkedList) zss.iterator().next()).iterator().next();
         //从String 类型的链表中试图提取一个Byte 类型的list 元素
-        try {
-            Byte w = (Byte) ys.iterator().next();  //run-time exception
-        } catch (Exception e) {
-            System.out.println(e);
-            e.printStackTrace();
-        }
+        System.out.println(xs);
+        System.out.println(ys);
+        System.out.println(zss);
+//        try {
+//            Byte w = (Byte) ys.iterator().next();  //run-time exception
+//        } catch (Exception e) {
+//            System.out.println(e);
+//            e.printStackTrace();
+//        }
 
     }
 }

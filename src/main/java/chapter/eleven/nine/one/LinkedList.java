@@ -7,6 +7,26 @@ class LinkedList implements Collection {
     public LinkedList() {
     }
 
+    @Override
+    public String toString() {
+        var it = iterator();
+        if (!it.hasNext()) {
+            return "[]";
+        }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append('[');
+        for (; ; ) {
+            var e = it.next();
+            sb.append(e == this ? "(this Collection)" : e);
+            if (!it.hasNext()) {
+                return sb.append(']').toString();
+            }
+            sb.append(',').append(' ');
+        }
+
+    }
+
     public void add(Object elt) {
         if (heaD == null) {
             heaD = new Node(elt);
