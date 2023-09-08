@@ -1,4 +1,4 @@
-import org.example.isPrime
+package org.example
 
 fun main(args: Array<String>) {
     var count = 0
