@@ -10,6 +10,6 @@ class SetExampleTest {
     void mainTest() {
 
         main(new String[]{"hello", "world"});
-        main(new String[]{"she", "said","she","is","signorina"});
+        main(new String[]{"she", "said", "she", "is", "signorina"});
     }
 }
