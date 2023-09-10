@@ -1,7 +1,7 @@
 package chapter.eleven.ten.one;
 
 //下面再看如何对这个类进行应用。代码如下:
-class Test2 {
+public class Test2 {
     public static void main(String[] args) {
         //创建Byte 类型list
         LinkedList<Byte> xs = new LinkedList<>();

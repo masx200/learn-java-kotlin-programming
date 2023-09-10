@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.Arrays;
 
 class ObjectStreamTest {
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ class ObjectStreamTest {
         staff[0] = liming;
         staff[1] = wanghai;
         staff[2] = zhouxiao;
+        System.out.println(Arrays.toString(staff));
         try {
             ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("employee.dat"));
             out.writeObject(staff);  //写对象数组
@@ -27,6 +29,7 @@ class ObjectStreamTest {
             for (Employee e : newStaff) {
                 System.out.println(e); //将新的对象数组打印出来
             }
+            System.out.println(Arrays.toString(newStaff));
         } catch (Exception e) {
             e.printStackTrace();
         }
