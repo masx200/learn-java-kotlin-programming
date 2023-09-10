@@ -2,7 +2,7 @@ package chapter.eleven.nine.one;
 
 
 //代码如下:
-class Test {
+public class Test {
     public static void main(String[] args) {
         //Byte 类型的list
         LinkedList xs = new LinkedList();

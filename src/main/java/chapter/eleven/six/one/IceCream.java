@@ -1,5 +1,7 @@
 package chapter.eleven.six.one;
 
+import java.util.Arrays;
+
 public class IceCream {
     //创建对象数组,有10 个String 对象,是冰激凌的品种
     static final String[] breed = {" 巧克力", "香草", "草莓", "朗姆酒", "咖啡",
@@ -42,6 +44,7 @@ public class IceCream {
                 System.out.print("\t" + s); //\t 是制表符
             }
             System.out.println();
+            System.out.println(Arrays.toString(be));
         }
     }
 }
