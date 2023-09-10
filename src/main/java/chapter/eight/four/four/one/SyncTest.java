@@ -2,7 +2,7 @@ package chapter.eight.four.four.one;
 
 //(4)SyncTest.java
 public class SyncTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         SyncStack stack = new SyncStack();
         Producer p1 = new Producer(stack);
         Thread prodT1 = new Thread(p1);
@@ -16,5 +16,10 @@ public class SyncTest {
         Consumer c2 = new Consumer(stack);
         Thread consT2 = new Thread(c2);
         consT2.start();
+
+        prodT1.join();
+        prodT2.join();
+        consT1.join();
+        consT2.join();
     }
 }

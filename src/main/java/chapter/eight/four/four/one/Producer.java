@@ -14,7 +14,7 @@ public class Producer implements Runnable {
     //然后休眠300 毫秒,共进行200 次
     public void run() {
         char c;
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 20; i++) {
             c = (char) (Math.random() * 26 + 'A');
             theStack.push(c);
             System.out.println("Producer" + num + ":" + c);

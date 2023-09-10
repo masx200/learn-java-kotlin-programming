@@ -15,7 +15,7 @@ public class Consumer extends Thread {
     //然后休眠300 毫秒,共进行200 次
     public void run() {
         char c;
-        for (int I = 0; I < 200; I++) {
+        for (int I = 0; I < 20; I++) {
             c = theStack.pop();
             System.out.println("Consumer" + num + ":" + c);
             try {
