@@ -1,7 +1,7 @@
 package chapter.eight.three.two.two;
 
 public class ThreadTerminate {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int i = 0;
         Hello h = new Hello();
         Thread t = new Thread(h);
@@ -12,6 +12,7 @@ public class ThreadTerminate {
         while (i < 5) {
             System.out.println("Good Morning" + i++);
         }
+        t.join();
     }
 }
 
