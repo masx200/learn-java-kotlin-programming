@@ -22,5 +22,6 @@ public class Hashtable2 {
         bal = balance.get("李闵");
         balance.put("李闵", (bal + 1000));
         System.out.println("李闵的新余额:" + balance.get("李闵"));
+        System.out.println(balance);
     }
 }

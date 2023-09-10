@@ -33,5 +33,7 @@ public class VectorExample {
         while (vEnum.hasMoreElements()) {
             System.out.print(vEnum.nextElement() + " ");
         }
+        System.out.println();
+        System.out.println(v);
     }
 }
