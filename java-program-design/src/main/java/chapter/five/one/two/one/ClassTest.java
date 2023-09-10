@@ -25,6 +25,6 @@ public class ClassTest {
         } catch (ClassNotFoundException e) {
             System.out.print("对不起,该类不在Java 类库。\n \n");
         }
-        System.exit(0);
+//        System.exit(0);
     }
 }
