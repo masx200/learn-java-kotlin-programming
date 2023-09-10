@@ -4,6 +4,7 @@ import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.Arrays;
 
 public class RandomFileTest {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class RandomFileTest {
         staff[0] = new Employee("王海", 75000, 1987, 12, 15);
         staff[1] = new Employee("李明", 50000, 1989, 10, 1);
         staff[2] = new Employee("周晓", 40000, 1990, 3, 15);
+        System.out.println(Arrays.toString(staff));
         try {
             DataOutputStream out =   /*字节文件流。实现了DataOutput 接口。以二进制文件输出流为参数 */
                     new DataOutputStream(new FileOutputStream("employee.dat"));
@@ -31,6 +33,7 @@ public class RandomFileTest {
             for (Employee e : newStaff) {
                 System.out.println(e); //遍历数组newStaff的元素e
             }
+            System.out.println(Arrays.toString(newStaff));
         } catch (IOException e) {  //捕获IO 异常,异常传递链的终点
             e.printStackTrace();
         }
