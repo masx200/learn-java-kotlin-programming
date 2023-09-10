@@ -3,6 +3,7 @@ package chapter.seven.four.two.one;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TextFileTest {
@@ -11,6 +12,7 @@ public class TextFileTest {
         staff[0] = new Employee("王海", 75000, 1987, 12, 15);
         staff[1] = new Employee("李明", 50000, 1989, 10, 1);
         staff[2] = new Employee("周晓", 40000, 1990, 3, 15);
+        System.out.println(Arrays.toString(staff));
         try {
             PrintWriter out = new PrintWriter("employee.dat");
             writeData(staff, out);  //主类成员方法
@@ -21,6 +23,7 @@ public class TextFileTest {
             for (Employee e : newStaff) {
                 System.out.println(e);  //打印(toString())对象
             }
+            System.out.println(Arrays.toString(newStaff));
         } catch (IOException exception) {
             exception.printStackTrace();
         }

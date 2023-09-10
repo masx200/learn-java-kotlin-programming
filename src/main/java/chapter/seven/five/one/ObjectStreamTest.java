@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Arrays;
 
-class ObjectStreamTest {
+public class ObjectStreamTest {
     public static void main(String[] args) {
         Employee wanghai = new Employee("王海", 50000, 1989, 10, 1);
         Manager liming = new Manager("李明", 80000, 1987, 12, 15);
