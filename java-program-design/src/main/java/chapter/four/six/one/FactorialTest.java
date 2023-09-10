@@ -1,5 +1,6 @@
 package chapter.four.six.one;
 
+public
 //例4.12 利用递归结构求n!
 class FactorialTest {
     static long Factorial(int n) {           //定义Factorial()方法
