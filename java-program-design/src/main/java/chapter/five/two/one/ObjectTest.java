@@ -24,6 +24,11 @@ public class ObjectTest {
         System.out.println("bob.hashCode():" + bob.hashCode());   //方法覆盖
         System.out.println("carl.hashCode():" + carl.hashCode()); //方法覆盖
         System.out.println("boss.hashCode():" + boss.hashCode()); //方法覆盖
+        System.out.println(zhang1);
+        System.out.println(zhang3);
+        System.out.println(bob);
+        System.out.println(carl);
+        System.out.println(boss);
     }
 }
 
