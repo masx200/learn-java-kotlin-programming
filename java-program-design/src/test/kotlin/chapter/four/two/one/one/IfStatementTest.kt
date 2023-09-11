@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 
 internal class IfStatementTest {
     @Test
-    fun main() {
+    fun maintest() {
         IfStatement.main(arrayOf())
     }
 

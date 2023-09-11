@@ -21,4 +21,12 @@ public class Employee               //包中的类都是public 的
     public int compareTo(Employee other) {      //实现接口中的抽象方法
         return Double.compare(other.salary, salary);     //提供给Arrays.sort(staff);
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }

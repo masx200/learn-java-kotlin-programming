@@ -11,6 +11,8 @@ public class Teacher {
         System.out.println("name = " + teacher.name);
         System.out.print("刘小灵生日= ");
         teacher.getBirth().showDate(); /*调用getBirth 方法返回birth 对象,再调用该对象showDate()方法显示生日*/
+        System.out.println(teacher
+        );
     }
 
     //初始化Teacher 方法
@@ -21,6 +23,14 @@ public class Teacher {
 
     Date getBirth() {           //定义getbirth()方法,方法作为返回birth 变量值
         return birth;
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "name='" + name + '\'' +
+                ", birth=" + birth +
+                '}';
     }
 }
 

@@ -8,4 +8,12 @@ class Student {
         this.name = name;                        //解释参数的模糊性
         this.department = department;            //解释参数模糊性
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", department='" + department + '\'' +
+                '}';
+    }
 }

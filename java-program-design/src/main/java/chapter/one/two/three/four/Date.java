@@ -5,6 +5,15 @@ public class Date {               //定义了日期类,有年,月,日的特性
     final int month;
     final int day;
 
+    @Override
+    public String toString() {
+        return "Date{" +
+                "year=" + year +
+                ", month=" + month +
+                ", day=" + day +
+                '}';
+    }
+
     //构造方法
     public Date(int y, int m, int d) {
         year = y;

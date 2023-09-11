@@ -6,5 +6,6 @@ public class AccountTest {
         System.out.println("clientName=" + youAccount.clientName);
         System.out.println("accountNum=" + youAccount.accountNum);
         System.out.println("balance=" + youAccount.balance);
+        System.out.println(youAccount);
     }
 }

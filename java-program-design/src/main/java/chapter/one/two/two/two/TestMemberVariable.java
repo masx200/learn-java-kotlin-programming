@@ -8,5 +8,6 @@ public class TestMemberVariable {
         System.out.println(Circle.PI);    //访问类变量
         System.out.println(c.radius);     //访问实例变量
         System.out.println(Circle.PI);         //访问类变量
+        System.out.println(c);
     }
 }

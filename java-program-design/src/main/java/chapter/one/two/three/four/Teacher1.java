@@ -11,6 +11,8 @@ public class Teacher1 {      //Teacher1 教师生日类定义
         teacher.setTeacher("张闻", 1968, 6, 18);
         //调用showTeacher方法显示teacher变量
         teacher.showTeacher();
+        System.out.println(teacher
+        );
     }
 
     //初始化方法
@@ -23,5 +25,13 @@ public class Teacher1 {      //Teacher1 教师生日类定义
         System.out.println("名字:" + name);
         System.out.print("生日:");
         birth.showDate();         //在showTeacher方法中调用birth的showDate()方法
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher1{" +
+                "name='" + name + '\'' +
+                ", birth=" + birth +
+                '}';
     }
 }

@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ExceptionCatch {
     public static void main(String[] args) {
         try (FileInputStream fis = new FileInputStream("text")) {
-            System.out.println("content of text is:");
+            System.out.println("content of text is:" + new String(fis.readAllBytes()));
         } catch (FileNotFoundException e) {
             System.out.println(e);
             System.out.println("message:" + e.getMessage());

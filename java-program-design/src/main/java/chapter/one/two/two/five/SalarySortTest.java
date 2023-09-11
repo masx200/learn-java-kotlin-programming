@@ -10,10 +10,13 @@ public class SalarySortTest {
         staff[0] = new Employee("Harry Hacker", 35000);
         staff[1] = new Employee("Carl Cracker", 75000);
         staff[2] = new Employee("Tony Tester", 38000);
+
+        System.out.println(Arrays.toString(staff));
         Arrays.sort(staff);                  //以对象数组staff 为参数
         for (Employee e : staff)                //依次打印对象数组staff 的元素e
         {
             System.out.println("name=" + e.getName() + ",salary =" + e.getSalary());
         }
+        System.out.println(Arrays.toString(staff));
     }
 }
