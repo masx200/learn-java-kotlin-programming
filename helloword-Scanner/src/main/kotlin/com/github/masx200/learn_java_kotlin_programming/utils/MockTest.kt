@@ -1,9 +1,10 @@
-package org.example
+package com.github.masx200.learn_java_kotlin_programming.utils
 
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 import java.nio.charset.StandardCharsets
+
 @Synchronized
 fun MockTest(input: String, runnable: Runnable): Array<String> {
     val orig = System.out

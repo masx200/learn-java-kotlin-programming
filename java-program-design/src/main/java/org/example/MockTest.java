@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 
+
 public class MockTest {
     public synchronized static String[] MockTest(String input, Runnable runnable) {
         PrintStream orig = System.out;
