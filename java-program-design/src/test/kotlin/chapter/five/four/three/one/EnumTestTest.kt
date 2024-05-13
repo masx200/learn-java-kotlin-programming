@@ -1,6 +1,6 @@
 package chapter.five.four.three.one
 
-import org.example.MockTest
+import com.github.masx200.learn_java_kotlin_programming.utils.MockTest
 import org.junit.jupiter.api.Test
 
 internal class EnumTestTest {

@@ -1,4 +1,4 @@
-package org.example;
+package com.github.masx200.learn_java_kotlin_programming.utils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

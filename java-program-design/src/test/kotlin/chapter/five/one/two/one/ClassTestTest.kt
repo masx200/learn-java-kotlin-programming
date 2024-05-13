@@ -1,6 +1,6 @@
 package chapter.five.one.two.one
 
-import org.example.MockTest
+import com.github.masx200.learn_java_kotlin_programming.utils.MockTest
 import org.junit.jupiter.api.Test
 
 internal class ClassTestTest {
